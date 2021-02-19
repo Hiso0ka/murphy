@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(201, 197, 197);
+    
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+p  {
+    font-size: 1.5em;
+    padding: 1%;
+    font-family: sans-serif;
+}
+
+p.uno {
+    text-align: center;
+    border: 2.5px solid sienna;
+    background-color: rgb(235, 204, 147);
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    margin-top: 0;   
+}
+
+p.dos {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    width: 35%;
+    height: 30%;
+    border: 2px solid green;
+    background-color: rgb(143, 230, 14);
+    text-align: center;
+    z-index: 2;
+}
+
+p.tres {
+    position: absolute;
+    border: 2px solid goldenrod;
+    background-color: yellow;
+    width: 35%;
+    height: 25%;
+    top:  25%;
+    left: 5%;
+    text-align: left;
+}
+
+p.cuatro {
+    position: absolute;
+    border: 2px solid blue;
+    background-color: skyblue;
+    width: 35%;
+    height: 25%;
+    top:  25%;
+    right: 5%;
+    text-align: right;
+}
+
+p.cinco {
+    position: absolute;
+    border: 2px solid indigo;
+    background-color: rgb(178, 125, 216);
+    width: 35%;
+    height: 25%;
+    left: 5%;
+    bottom: 5%;
+    text-align: left;
+}
+
+p.seis {
+    position: absolute;
+    border: 2px solid red;
+    background-color: salmon;
+    width: 35%;
+    height: 25%;
+    right: 5%;
+    bottom: 5%;
+    text-align: right;
+}
+
+p:hover {
+    z-index: 3;
+}
